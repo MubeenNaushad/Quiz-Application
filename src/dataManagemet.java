@@ -5,7 +5,7 @@ import java.sql.*;
 
 public class dataManagemet extends JFrame implements ActionListener {
 
-    // 2 Colors selected. So, I don't have to pick them again and agian.
+    // 2 Colors selected. So, I don't have to pick them again and again.
     Color MainColor = new Color(30, 144, 254);
     Color PrimaryColor = new Color(160, 32, 240);
 
@@ -225,7 +225,9 @@ public class dataManagemet extends JFrame implements ActionListener {
     }
 
     public static void main(String[] args) {
+        
         new dataManagemet().setVisible(true);
+        
     }
 
 }
