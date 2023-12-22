@@ -5,10 +5,10 @@ import java.sql.*;
 
 public class Quiz extends JFrame implements ActionListener {
 
-    public static int count = 0; //counter to keep track of No. of Question currently displayed on screen.
-    public static int timer = 15; //15 seconds of time to solve each Question.
-    public static boolean ans_given = false; //keep track whether the user has answerd or not.
-    public static int score = 0; //Stores total Score of the user.
+    public static int count = 0; // counter to keep track of No. of Question currently displayed on screen.
+    public static int timer = 15; // 15 seconds of time to solve each Question.
+    public static boolean ans_given = false; // keep track whether the user has answerd or not.
+    public static int score = 0; // Stores total Score of the user.
 
     Dimension screenSize;
 
